@@ -10,7 +10,8 @@
 #ifndef NKC_GLFW_H
 #define NKC_GLFW_H
 
-    
+
+    #include <GL/glew.h>
     #if defined(NKC_USE_OPENGL) && (NKC_USE_OPENGL == 3)
         #include <GL/glew.h>
     #endif
