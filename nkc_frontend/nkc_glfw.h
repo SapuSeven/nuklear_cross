@@ -11,8 +11,6 @@
 #define NKC_GLFW_H
 
     
-    #define GLFW_INCLUDE_GLEXT
-    #define GL_GLEXT_PROTOTYPES
     #if defined(NKC_USE_OPENGL) && (NKC_USE_OPENGL == 3)
         #include <GL/glew.h>
     #endif
